@@ -10,14 +10,24 @@
 <body>
     <header class="header">
         <h1>Coding Quiz Challenge</h1>
+        <div>
+            <p>Answer the following questions about Javascript fundamentals before the timer runs out! Answering incorrectly reduces time remaining.</p>
+        </div>
+        <img class="logo" src="assets/images/jslogo.png" alt="javascript logo">
     </header>
     <main class="main">
-        <section>
-            <div>
-                <p>Answer the following questions about Javascript fundamentals before the timer runs out! Answering incorrectly reduces time remaining.</p>
+        <div class="timer">
+            Time: <span id="time">0</span>
+        </div>
+        <div class="stage">
+            <div class="buttonDiv">
+                <button id="startBtn" type="button" class="btn">Start Quiz</button>
             </div>
-            <button id="startBtn" type="button" class="btn">Start Quiz</button>
-        </section>
+            <div class="questionDiv hide">
+                <p>Question 1:</p>
+            </div>
+        </div>
+        <script src="assets/js/script.js"></script>
     </main>
 </body>
 </html>

@@ -1,10 +1,11 @@
 body {
-    background-color: rgb(230, 192, 65, 80%)
+    background-color: rgb(230, 192, 65, 80%);
+    border: 15px solid black;
+    padding: 10px;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .header h1 {
@@ -14,26 +15,66 @@ body {
     width: 40%;
     background-color: black;
     font-size: 60px;
+    margin: auto;
 }
 
-.main div {
-    margin-top: -30px;
-    display: flex ;
-    flex-wrap: wrap;
-    justify-content: center;
+.header div {
+    width: 65%;
+    margin: auto;
 }
 
-.main p {
-    width: 75%;
+.header p {
+    width: 100%;
     text-align: center;
     font-size: 32px;
     background-color: white;
     border: 5px solid black;
 }
 
-
-/*
-.btn {
-    
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 10%;
+    border: 5px solid black;
+    background-color: white;
 }
-*/
+
+.buttonDiv {
+    margin: auto;
+    width: fit-content;
+}
+
+.btn {
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(85, 85, 85);
+    transform: translateY(4px);
+}
+
+.stage {
+    width: 100%;
+    height: 575px;
+}
+
+.hide {
+    display: none;
+}
+
+.timer {
+    color: black;
+    font-size: 40px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 5px;
+    position: fixed;
+    top: 100px;
+    right: 70px;
+}
