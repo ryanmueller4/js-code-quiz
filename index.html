@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS Coding Quiz</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 <body>
     <header class="header">
-        <h1>Coding Quiz Challenge</h1>
+        <h1>JS Coding Quiz
+        </h1>
         <div>
             <p>Answer the following questions about Javascript fundamentals before the timer runs out! Answering incorrectly reduces time remaining.</p>
         </div>
@@ -23,10 +23,17 @@
             <div class="buttonDiv">
                 <button id="startBtn" type="button" class="btn">Start Quiz</button>
             </div>
-            <div class="questionDiv hide">
-                <p>Question 1:</p>
+            <div id="questionSection" class="questionDiv hide">
+                <ol>
+                    <li><button>c1</button></li>
+                    <li><button>c2</button></li>
+                    <li><button>c3</button></li>
+                    <li><button>c4</button></li>
+                </ol>
             </div>
+            <p id="message"></p>
         </div>
+        <script src="assets/js/question.js" ></script>
         <script src="assets/js/script.js"></script>
     </main>
 </body>
