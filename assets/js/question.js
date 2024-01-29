@@ -1,5 +1,5 @@
 var questions = [{
-    question: "",
+    question: "q1",
     choices: ["c1", "c2", "c3", "c4"],
     answer: 0,
 }, {
