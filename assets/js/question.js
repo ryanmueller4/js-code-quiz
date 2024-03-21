@@ -1,21 +1,22 @@
 var questions = [{
-    question: "q1",
-    choices: ["c1", "c2", "c3", "c4"],
-    answer: 0,
+    question: "Inside which HTML tag do you implement a JavaScript file?",
+    choices: ["js", "script", "javascript", "body"],
+    answer: "script",
 }, {
-    question: "q2",
-    choices: ["c1", "c2", "c3", "c4"],
-    answer: 3,
+    question: "How do you define an array in JavaScript?",
+    choices: ["[]", "()", "||", "{}"],
+    answer: "[]",
 }, {
-    question: "q3",
-    choices: ["c1", "c2", "c3", "c4"],
-    answer: 2,
+    question: "Commonly used data types DO NOT include:",
+    choices: ["strings", "numbers", "alerts", "booleans"],
+    answer: "alerts",
 }, {
-    question: "q4",
-    choices: ["c1", "c2", "c3", "c4"],
-    answer: 3,
+    question: "Which of the following IS NOT a way to declare a variable in Javascript?",
+    choices: ["newvariable", "var", "const", "let"],
+    answer: "newvariable",
 }, {
-    question: "q5",
-    choices: ["c1", "c2", "c3", "c4"],
-    answer: 1,
+    question: "Which of the following is a valid Javascript operator?",
+    choices: ["==", "*", "%", "All of the above"],
+    answer: "All of the above",
 }]
+

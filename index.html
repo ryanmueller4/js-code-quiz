@@ -10,12 +10,13 @@
     <header class="header">
         <h1>JS Coding Quiz</h1>
         <div class="directions">
+            <button class="highscoreBtn">View Highscores</button>
             <p>Answer the following questions about Javascript fundamentals before the timer runs out! Answering incorrectly reduces time remaining.</p>
         </div>
         <img class="logo" src="assets/images/jslogo.png" alt="javascript logo">
     </header>
     <main class="main">
-        <div class="timer">
+        <div class="timer" id="timerElement">
             Time: <span id="time">0</span>
         </div>
         <div class="stage">
@@ -31,6 +32,14 @@
                 </ol>
             </div>
             <p id="message"></p>
+        </div>
+        <div class="scoreDiv hide">
+            <h2>Quiz Complete!</h2>
+            <form class="submitForm">
+                <label for="initials">Enter your initials:</label>
+                <input type="text" id="initials" name="initials" required>
+                <button type="submit" class="submitBtn">Submit</button>
+            </form>
         </div>
         <script src="assets/js/question.js" ></script>
         <script src="assets/js/script.js"></script>

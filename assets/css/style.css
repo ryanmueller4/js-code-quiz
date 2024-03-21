@@ -22,6 +22,7 @@ body {
 .header div {
     width: 65%;
     margin: auto;
+    text-align: center;
 }
 
 .header p {
@@ -57,17 +58,18 @@ body {
     width: fit-content;
 }
 
-.btn {
+
+.btn, .submitBtn, .highscoreBtn, .returnToQuizBtn {
     font-size: 32px;
-    background-color: black;
-    color: white;
-    border: 5px solid white;
+    background-color: white;
+    color: black;
+    border: 5px solid black;
     cursor: pointer;
     margin: 20px;
 }
 
-.btn:hover {
-    background-color: rgb(85, 85, 85);
+.btn:hover, .submitBtn:hover, .highscoreBtn:hover, .returnToQuizBtn:hover{
+    background-color: rgb(182, 182, 182);
     transform: translateY(4px);
 }
 
@@ -75,12 +77,34 @@ body {
     margin: auto;
     width: 70%;
     border: 5px solid black;
+    margin-bottom: 10px;
+    background-color: rgb(255, 196, 0);
 }
 
+.scoreDiv {
+    margin: auto;
+    width: 50%;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: rgb(255, 196, 0);
+}
+
+.scoreDiv h2 {
+    text-align: center;
+}
 .hide {
     display: none;
 }
 
 #message {
     margin-left: 10px;
+}
+
+.highscoresDiv {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: rgb(255, 196, 0);
 }
